@@ -86,6 +86,7 @@ img {
 .showcase .grid {
   overflow: visible;
   grid-template-columns: 55% 45%;
+  gap: 30px;
 }
 
 .showcase-form {
@@ -109,6 +110,25 @@ img {
   width: 100%;
   padding: 3px;
   font-size: 16px;
+}
+
+.showcase-form input:focus {
+  outline: none;
+}
+
+.showcase::before,
+.showcase::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -70px;
+  height: 100px;
+  background-color: #fff;
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
 }
 
 /* Utilities (classes around website */
