@@ -192,3 +192,16 @@ img {
   /* box-shadow: 0 0 10px #b4becb; */ /* another effect */
   transform: translateY(-15px);
 }
+
+/* Footer */
+.footer .social a {
+  margin: 0 10px;
+}
+
+.footer .social a:hover {
+  color: var(--primary-color);
+}
+
+.footer nav a:hover {
+  color: var(--primary-color);
+}
